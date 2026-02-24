@@ -93,4 +93,80 @@ nav ul li a:hover {
     .menu-toggle {
         display: block;
     }
+     .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-image img {
+        width: 250px;
+        margin-top: 30px;
+    }
+}
+/* Hero Section */
+.hero {
+    padding: 80px 0;
+    background: linear-gradient(to right, #f8f9fa, #e9f2ff);
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero-text h1 span {
+    color: #007bff;
+}
+
+.hero-text h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.hero-text p {
+    margin-bottom: 25px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background: #0056b3;
+}
+
+/* Image */
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
